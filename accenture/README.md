@@ -22,8 +22,8 @@ Asegúrate de que los siguientes requisitos estén instalados en tu máquina:
 Clona este repositorio en tu máquina local:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd my-franchise-project
+git clone https://github.com/Asiria91/testaccenture.git
+cd accenture
 ```
 
 #### **Paso 2: Compilar el proyecto**
@@ -39,7 +39,7 @@ Esto generará un archivo `.war` en el directorio `target/`.
 Ejecuta la aplicación con el siguiente comando:
 
 ```bash
-java -jar target/my-franchise-app.war
+java -jar target/accenture.war
 ```
 
 La aplicación estará disponible en [http://localhost:8080](http://localhost:8080).
@@ -52,14 +52,14 @@ La aplicación estará disponible en [http://localhost:8080](http://localhost:80
 Asegúrate de que Docker esté instalado y en ejecución. Luego, construye la imagen Docker:
 
 ```bash
-docker build -t my-franchise-app .
+docker build -t accenture .
 ```
 
 #### **Paso 2: Ejecutar el contenedor**
 Ejecuta el contenedor de la aplicación mapeando el puerto 8080:
 
 ```bash
-docker run -p 8080:8080 my-franchise-app
+docker run -p 8080:8080 accenture
 ```
 
 La aplicación estará disponible en [http://localhost:8080](http://localhost:8080).
@@ -92,5 +92,5 @@ La API ofrece los siguientes endpoints:
 
 ---
 
-© 2025 testaccenture
+© 2025 accenture
 
